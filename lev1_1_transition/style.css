@@ -1,0 +1,16 @@
+div {
+    height: 200px;
+    width: 200px;
+    background-color: lightseagreen;
+    margin: 50px 0 0 50px;
+}
+
+.transition {
+    transition: width 0.5s linear;
+}
+
+.transition:hover {
+    width: 1200px;
+
+
+}

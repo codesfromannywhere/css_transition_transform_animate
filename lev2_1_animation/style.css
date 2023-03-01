@@ -1,0 +1,64 @@
+section {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+
+}
+
+div {
+    height: 600px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.strobo1 {
+    animation-name: stroboskop;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.strobo2 {
+    animation-name: stroboskop;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.strobo3 {
+    animation-name: stroboskop;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.strobo4 {
+    animation-name: stroboskop;
+    animation-duration: 0.25s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.strobo5 {
+    animation-name: stroboskop;
+    animation-duration: 0.125s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes stroboskop {
+    0% {
+        background-color: none;
+    }
+
+    50% {
+        background-color: black;
+        color: white;
+    }
+
+    100% {
+        background-color: none;
+    }
+}
